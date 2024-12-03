@@ -1,6 +1,9 @@
 import random
 
-player = {"name": "null", "Inventory": {}, "stats": {}}
+player = {"name": "null",
+          "Inventory": {}, 
+          "stats": {}
+         }
 
 def roll4D6():
     """
